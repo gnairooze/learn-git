@@ -1,4 +1,5 @@
 This is a document to leatn how to resolve conflicts.
 Paragraph 2 created
 Paragraph 3 created
-Paragraph 4 created
+Paragraph 4 created and added to it some text
+Paragraph 6 created
