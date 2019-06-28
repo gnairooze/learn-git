@@ -57,3 +57,14 @@ $ git branch -d clean_up
 
 #push the change on origin
 $ git push
+
+#git clone from a branch other than master
+git clone -b Fix-1 --single-branch git://github.com/gnairooze/learning-cards.git
+
+#change remote to point to https instead of git
+git remote set-url origin https://github.com/gnairooze/learning-cards.git
+
+#push current to remote branch instead of master
+git push origin Fix-1:Fix-1
+
+#when cloning repo you are clong all the branches.
